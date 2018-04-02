@@ -2,8 +2,9 @@
 
 def position_taken?(board, index)
   if board[index] == " " || "" || nil
-    return false
+    false
   elsif board[index] == "X"
-    return true
+    puts "This line work"
+    true
   end
 end
